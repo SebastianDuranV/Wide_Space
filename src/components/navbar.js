@@ -1,0 +1,35 @@
+import React from 'react';
+import logo from '../logo.png';
+
+function Navegation() {
+    return (
+        <nav class="navbar navbar-expand-lg navbar-dark  navbar_color">
+            <img src={logo} className="App-logo" alt="logo" href="/#" />
+            <a class="navbar-brand name" href="/#">
+                WIDESPACE
+        </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item navbar_fonts active">
+                        <a class="nav-link" href="/#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item navbar_fonts">
+                        <a class="nav-link" href="/#">Features</a>
+                    </li>
+                    <li class="nav-item navbar_fonts">
+                        <a class="nav-link" href="/#">Pricing</a>
+                    </li>
+                    <li class="nav-item navbar_fonts">
+                        <a class="nav-link disabled" href="/#" tabindex="-1" aria-disabled="true">Copyraight 2020 </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    );
+}
+
+export default Navegation;
