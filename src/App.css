@@ -5,3 +5,17 @@
 .App-logo {
   height: 40px;
   padding-right: 0px;}
+
+
+.navbar_fonts{
+  font-family: 'Open Sans';
+}
+
+.name{
+  font-family: 'Montserrat';
+  letter-spacing: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
