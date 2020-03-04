@@ -1,5 +1,5 @@
 import React from 'react';
-//import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 //<img src={logo} className="App-logo" alt="logo" />
@@ -7,8 +7,10 @@ import './App.css';
 function App() {
   return (
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-dark  navbar_color">
+      <img src={logo} className="App-logo" alt="logo" />
+      <a class="navbar-brand" href="/#">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -24,7 +26,7 @@ function App() {
             <a class="nav-link" href="/#">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="/#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link disabled" href="/#" tabindex="-1" aria-disabled="true">Copyraight 2020 </a>
           </li>
         </ul>
       </div>
