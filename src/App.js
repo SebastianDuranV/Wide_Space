@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.png';
 import './App.css';
 import { render } from '@testing-library/react';
 import Navegation from './components/navbar';
