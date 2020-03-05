@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import { render } from '@testing-library/react';
 import Navegation from './components/navbar';
 
 //<img src={logo} className="App-logo" alt="logo" />
 
 function App() {
   return (
-    <Navegation />
-
+    <div>
+      <Navegation />
+    </div>
   );
 }
 

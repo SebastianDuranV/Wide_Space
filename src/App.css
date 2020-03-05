@@ -18,4 +18,8 @@
   padding-right: 10px;
 }
 
-
+body{
+  background-image: url('foto_edificio.png');
+  /*background-position: center; /* Center the image */
+  background-size: 100%
+}
