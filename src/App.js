@@ -1,6 +1,8 @@
 import React from 'react';
-import './App.css';
+import './style/App.css';
 import Navegation from './components/navbar';
+
+
 
 //<img src={logo} className="App-logo" alt="logo" />
 
@@ -8,7 +10,11 @@ function App() {
   return (
     <div>
       <Navegation />
+
     </div>
+
+
+
   );
 }
 
