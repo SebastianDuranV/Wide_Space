@@ -2,6 +2,10 @@
   background-color: rgb(185,149,26);
 }
 
+main{
+  padding-top: 56px;
+}
+
 .App-logo {
   height: 40px;
   padding-right: 0px;}

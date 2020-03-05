@@ -1,14 +1,15 @@
 import React from 'react';
 import logo from '../style/logo.png';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect, Link } from 'react-router-dom';
 import Welcome from './Welcome';
+import PageNotFound from './PageNotFound';
 
 function Navegation() {
     return (
         <div>
             <Router>
-                <nav class="navbar navbar-expand-lg navbar-dark  navbar_color">
-                    <img src={logo} className="App-logo" alt="logo" href="/#" />
+                <nav class="navbar navbar-expand-lg navbar-dark  fixed-top navbar_color">
+                    <img src={logo} className="App-logo" alt="logo" href="/" />
                     <a class="navbar-brand name" href="/#">
                         WIDESPACE
         </a>
@@ -18,7 +19,7 @@ function Navegation() {
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item navbar_fonts active">
-                                <Link class="nav-link" to="./Welcome.js">Home <span class="sr-only">(current)</span></Link>
+                                <Link class="nav-link" to="/#">Home <span class="sr-only">(current)</span></Link>
                             </li>
                             <li class="nav-item navbar_fonts">
                                 <a class="nav-link" href="/#">Features</a>
@@ -32,10 +33,14 @@ function Navegation() {
                         </ul>
                     </div>
                 </nav>
-                <Route exact path="/Welcome.js" component={Welcome} />
+                <main>
+                    <Route exact path="/" component={Welcome} />
+                </main>
             </Router>
         </div>
     );
 }
+/*<Route path="/404" component={PageNotFound} />
+<Redirect to="/404" />*/
 
 export default Navegation;
