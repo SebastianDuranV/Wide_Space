@@ -5,7 +5,7 @@
 
 
 .about-description{
-    padding:2rem;
+    padding:1rem;
 }
 
 .about-description h2{
@@ -16,5 +16,12 @@
 }
 
 .mark-img{
-    padding-top: 2.2rem;
+    padding-top: 2rem;
+}
+
+.row {
+
+    margin-right: 0px;
+    margin-left: 0px;
+
 }
