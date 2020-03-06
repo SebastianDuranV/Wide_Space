@@ -18,7 +18,7 @@ function Carousel(props) {
             <div class="carousel-inner carousel-center">
                 <div class="carousel-item active ">
                     <img src={sala_1} class="d-block images " alt="sala" />
-                    <div class="carousel-caption d-none d-md-block primero">
+                    <div class="carousel-caption d-md-block primero">
                         <div class='welcome-mensage-cont '>
                             <div class='welcome-mensage color-1'>
                                 <h1> Bienvenido a WIDESPACE</h1>
@@ -34,7 +34,7 @@ function Carousel(props) {
                 </div>
                 <div class="carousel-item">
                     <img src={sala_2} class="d-block images" alt="sala" />
-                    <div class="carousel-caption d-none d-md-block segundo">
+                    <div class="carousel-caption  d-md-block segundo">
                         <div class='welcome-mensage-cont '>
                             <div class='welcome-mensage color-3'>
                                 <h1> Bienvenido a WIDESPACE</h1>
@@ -50,7 +50,7 @@ function Carousel(props) {
                 </div>
                 <div class="carousel-item">
                     <img src={sala_3} class="d-block images" alt="sala" />
-                    <div class="carousel-caption d-none d-md-block tercero">
+                    <div class="carousel-caption d-md-block tercero">
                         <div class='welcome-mensage-cont '>
                             <div class='welcome-mensage color-2 '>
                                 <h1> Bienvenido a WIDESPACE</h1>
