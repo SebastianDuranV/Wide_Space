@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../style/logo.png';
 import { BrowserRouter as Router, Route, Redirect, Link } from 'react-router-dom';
 import Welcome from './Welcome';
+import About from './About';
 import PageNotFound from './PageNotFound';
 
 function Navegation() {
@@ -22,7 +23,7 @@ function Navegation() {
                                 <Link class="nav-link" to="/#">Home <span class="sr-only">(current)</span></Link>
                             </li>
                             <li class="nav-item navbar_fonts">
-                                <a class="nav-link" href="/#">Features</a>
+                                <a class="nav-link" href="/About">About</a>
                             </li>
                             <li class="nav-item navbar_fonts">
                                 <a class="nav-link" href="/#">Pricing</a>
@@ -35,6 +36,7 @@ function Navegation() {
                 </nav>
                 <main>
                     <Route exact path="/" component={Welcome} />
+                    <Route exact path="/About" component={About} />
                 </main>
             </Router>
         </div>

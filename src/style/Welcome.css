@@ -12,4 +12,20 @@
 
 .welcome-buttom{
     padding:1rem;
+    
+}
+
+@media (max-width: 486px){
+    .welcome-mensage h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .welcome-mensage h2 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .welcome-buttom{
+        text-align: center;
+    }
 }
