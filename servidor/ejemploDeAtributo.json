@@ -1,13 +1,17 @@
 {
-    "cubiculo": {
-        "numero": "int",
-        "diponibilidad": "int",
-        "ultima actualización": {
-            "fecha": "dd/mm/AAAA",
-            "hora": "HH:mm"
-        },
-        "numero de sillas": "int",
-        "mesa": "bool",
-        "pizarron": "bool"
+    "institucion": {
+        "nombre de intitución": "string",
+        "cubiculo": {
+            "numero": "int",
+            "diponibilidad": "int",
+            "ultima actualización": {
+                "fecha": "dd/mm/AAAA",
+                "hora": "HH:mm"
+            },
+            "numero de sillas": "int",
+            "mesa": "bool",
+            "pizarron": "bool",
+            "link": "string"
+        }
     }
 }
