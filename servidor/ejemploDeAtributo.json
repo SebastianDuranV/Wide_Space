@@ -1,0 +1,13 @@
+{
+    "cubiculo": {
+        "numero": "int",
+        "diponibilidad": "int",
+        "ultima actualización": {
+            "fecha": "dd/mm/AAAA",
+            "hora": "HH:mm"
+        },
+        "numero de sillas": "int",
+        "mesa": "bool",
+        "pizarron": "bool"
+    }
+}
