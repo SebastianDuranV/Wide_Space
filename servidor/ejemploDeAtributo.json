@@ -1,17 +1,28 @@
 {
     "institucion": {
-        "nombre de intitución": "string",
-        "cubiculo": {
-            "numero": "int",
-            "diponibilidad": "int",
-            "ultima actualización": {
-                "fecha": "dd/mm/AAAA",
-                "hora": "HH:mm"
-            },
-            "numero de sillas": "int",
-            "mesa": "bool",
-            "pizarron": "bool",
-            "link": "string"
+        "nombre": "UACH",
+        "edificio": {
+            "nombre": "9000",
+            "cubiculos": [
+                {
+                    "id": "1",
+                    "diponible": 0,
+                    "actualización": "11/11/20 20:23",
+                    "sillas": 1,
+                    "mesa": true,
+                    "pizarron": true,
+                    "link": ""
+                },
+                {
+                    "id": "1",
+                    "diponible": 0,
+                    "actualización": "11/11/20 20:23",
+                    "sillas": 1,
+                    "mesa": true,
+                    "pizarron": true,
+                    "link": ""
+                }
+            ]
         }
     }
 }
