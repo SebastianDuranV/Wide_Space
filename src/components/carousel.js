@@ -42,7 +42,7 @@ function Carousel(props) {
                                 <div class='welcome-buttom'>
                                     <buttom type='buttom' class='btn btn-light but' >
                                         Leer más
-                        </buttom>
+                                    </buttom>
                                 </div>
                             </div>
                         </div>
