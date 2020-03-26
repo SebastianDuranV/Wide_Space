@@ -10,24 +10,24 @@ function Navegation() {
     return (
         <div>
             <Router>
-                <nav class="navbar navbar-expand-lg navbar-dark  fixed-top navbar_color">
+                <nav className="navbar navbar-expand-lg navbar-dark  fixed-top navbar_color">
                     <img src={logo} className="App-logo" alt="logo" href="/" />
-                    <a class="navbar-brand name" href="/#">
+                    <a className="navbar-brand name" href="/#">
                         WIDESPACE
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item navbar_fonts active">
-                                <Link class="nav-link" to="/#">Cubículos <span class="sr-only">(current)</span></Link>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav">
+                            <li className="nav-item navbar_fonts active">
+                                <Link className="nav-link" to="/#">Cubículos <span className="sr-only">(current)</span></Link>
                             </li>
-                            <li class="nav-item navbar_fonts">
-                                <a class="nav-link" href="/About">Qué es esto? </a>
+                            <li className="nav-item navbar_fonts">
+                                <a className="nav-link" href="/About">Qué es esto? </a>
                             </li>
-                            <li class="nav-item navbar_fonts">
-                                <a class="nav-link" href="https://www.uach.cl/" tabindex="-1" aria-disabled="true"> UACh </a>
+                            <li className="nav-item navbar_fonts">
+                                <a className="nav-link" href="https://www.uach.cl/" tabIndex="-1" aria-disabled="true"> UACh </a>
                             </li>
                         </ul>
                     </div>

@@ -1,0 +1,32 @@
+#ListaCubiculos{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+    background-color: lightsteelblue;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-row-gap: 80px;
+    justify-content: center;
+}
+
+.Cubiculo{
+    border: 2px solid black;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#disponible{
+    background-color: limegreen;
+}
+
+#ocupado{
+    background-color: red;
+}
+
+#deshabilitado{
+    background-color: rgb(127, 21, 168);
+}
