@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Redirect, Link } from 'react-router-dom
 import Welcome from './Welcome';
 import About from './About';
 import Home from './Home';
+import Cubiculo1 from './1.js'
 //import PageNotFound from './PageNotFound';
 
 function Navegation() {

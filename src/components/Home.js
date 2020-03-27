@@ -19,7 +19,7 @@ class Home extends React.Component {
 function imprimirCubiculo(id, disp) {
     if (disp === 1) {
         return (
-            <div className='Cubiculo' id='disponible'>
+            <div className='Cubiculo' id='disponible' key={id}>
                 <h1>{id}</h1>
                 <p>Disponible</p>
             </div>
@@ -27,7 +27,7 @@ function imprimirCubiculo(id, disp) {
     }
     else if (disp === 0) {
         return (
-            <div className='Cubiculo' id='ocupado'>
+            <div className='Cubiculo' id='ocupado' key={id}>
                 <h1>{id}</h1>
                 <p>Ocupado</p>
             </div>
@@ -35,7 +35,7 @@ function imprimirCubiculo(id, disp) {
     }
     else {
         return (
-            <div className='Cubiculo' id='deshabilitado'>
+            <div className='Cubiculo' id='deshabilitado' key={id}>
                 <h1>{id}</h1>
                 <p>Deshabilitado</p>
             </div>
